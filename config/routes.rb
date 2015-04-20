@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-  root 'home#layout_page1'
+  root 'home#jumbotron_narrow_page'
 
-  get 'home/layout_page1'
-  get 'home/layout_page2'
+  get 'home/jumbotron_narrow_page'
+  get 'home/jumbotron_page'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

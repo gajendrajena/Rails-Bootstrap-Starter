@@ -1,7 +1,11 @@
 class HomeController < ApplicationController
-  def layout_page1
+
+  def jumbotron_narrow_page
+  	render layout: 'jumbotron_narrow'
   end
 
-  def layout_page2
+  def jumbotron_page
+  	render layout: 'jumbotron'
   end
+
 end
